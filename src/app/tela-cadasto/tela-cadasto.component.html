@@ -1,0 +1,56 @@
+<div class = "container">
+    <div class = "container2">
+        <div class = "card">
+            <div class = "titulo">
+                <h2>Cadastro</h2>
+            </div>
+            <div class = "corpo">
+<form  [formGroup]= "form" (ngSubmit)="salvar()">
+    <table>
+        <tr>
+            <td><p>Nome</p></td>
+            <td> <input type="text" name="txtNome" id="txtNome" formControlName="nomeFormControl"></td>
+        </tr>
+        <tr>
+            <td><p>Email</p></td>
+            <td> <input type="text" name="txtEmail" id="txtEmail" formControlName="emailFormControl"></td>
+        </tr>
+        <tr>
+            <td><p>Senha</p></td>
+            <td> <input type="password" name="txtSenha" id="txtSenha" formControlName="senhaFormControl"></td>
+        </tr>
+        <tr>
+            <td><p>Data de Nascimento</p></td>
+            <td> <input type="date" name="txtData" id="txtData" formControlName="dataFormControl"></td>
+        </tr>
+        <tr>
+            <td><p>Endereço</p></td>
+            <td> <input type="text" name="txtEndereco" id="txtEndereco" formControlName="enderFormControl"></td>
+        </tr>
+        <tr>
+            <td><p>Perfil</p></td>
+            <select name="ddlPerfil" id="ddlPerfil" formControlName="perfilFormControl">
+                <option value="0">Administrador</option>
+                <option value="1">Usuario</option>
+            </select>
+        </tr>
+        <tr>
+            <td colspan="2">
+                
+               <input type="submit" id="botao" value="Salvar">
+            </td>
+           
+        </tr>
+        <tr class="listar">
+            <td colspan="2">
+                <a href=""><button mat-raised-button color="primary">Listar</button></a> 
+            </td>
+        </tr>
+        
+    </table>
+</form>
+</div>
+</div>
+</div>
+</div>
+

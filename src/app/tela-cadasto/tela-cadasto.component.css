@@ -1,0 +1,78 @@
+section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    width: 490px;
+  }
+  
+  .example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+.container{
+  margin:8%;
+  border-radius:10px;
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+} 
+.container2{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.card{
+  background-color:#36393f;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+.titulo{
+  background-color: #202225;
+  text-align: center;
+}
+.titulo h2{
+  padding: 0px;
+  margin: 2px;
+  color:white;
+}
+.corpo{
+  padding: 10px;
+
+}
+.corpo input{
+  width: 100%;
+}
+.corpo select{
+  width: 100%;
+}
+.corpo p{
+font-weight: bold;
+color:white;
+}
+#botao{
+  margin-top: 4px;
+}
+.listar{
+  text-align: center;
+}

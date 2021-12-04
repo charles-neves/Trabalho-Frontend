@@ -1,0 +1,55 @@
+.header .logo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    position: relative ;
+    left: -70px;
+    top: 9px;
+    }
+    .header .icon{
+    position: relative;
+    bottom: 10px;
+    color: white;
+    }
+    .header .perfil{
+        position:absolute ;            
+        left: 930px;
+    }
+    .header .favoritos{
+        position:absolute ;            
+        left: 890px;
+    }
+    .header .carrinho{
+        position:absolute ;            
+        left: 850px;
+    }
+    .header .lupa{
+        position:absolute ;            
+        left: 810px;
+    }
+
+    mat-toolbar{
+        background-color: black;
+    }
+.login button{
+    position: absolute;
+    right: 8%; 
+    top: 15px;  
+}
+.cadas button{
+    position: absolute;
+    right: 1%; 
+    top: 15px;  
+    
+}
+.cadas button:hover:not(action) {
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border: 1px solid white;
+}
+.login button:hover:not(action) {
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border: 1px solid white;
+}
+    
